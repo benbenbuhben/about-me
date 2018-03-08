@@ -12,6 +12,10 @@ h2 {
   font-style: italic;
 }
 
+h3 {
+  text-align: center;
+}
+
 img {
   border-radius: 200px;
   border-style:solid;
