@@ -122,6 +122,8 @@ while (answer1 === false) {
   guessCount1++;
 }
 
+console.log('My number was ' + randNum + '. It took you ' + guessCount1 + ' guesses.');
+
 //Question #7
 var answerBank = ['Mexico', 'Canada', 'Belize', 'Guatemala', 'El Salvador', 'Honduras', 'Nicaragua', 'Costa Rica', 'Panama', 'Colombia', 'Ecuador', 'Peru', 'Bolivia', 'Argentina', 'Chile', 'Uruguay'];
 
@@ -134,7 +136,7 @@ var guessCount = 0;
 while (answer === false) {
 
   if (guessCount === 0) {
-    var countryGuess = prompt('Can you guess a country I\'ve traveled to (mostly Latin America)?');
+    var countryGuess = prompt('Can you guess a country I\'ve traveled to (Hint: mostly Latin America)?');
     console.log(countryGuess);
   } else {
     countryGuess = prompt('Try again! Can you guess a country I\'ve traveled to?');
@@ -159,6 +161,8 @@ while (answer === false) {
 }
 
 alert('I have been to these countries: ' + answerBank);
+
+console.log('It took you ' + guessCount + ' guesses.');
 
 
 
