@@ -1,2 +1,4 @@
 # about-me
-About me project for week 1 of Code 201.
+Pair Programming 
+Driver: Kathleen Rowland
+Navigator: Ben Hurst
