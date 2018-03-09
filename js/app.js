@@ -6,6 +6,7 @@ alert('Let\'s get to know Ben...');
 var numberRight = 0;
 
 //Question #1
+function question1() {
 var ageGuess = prompt('Do you think I\'m older than 30?');
 
 while (ageGuess.length < 1) {
@@ -20,9 +21,11 @@ if (ageGuess.charAt(0).toLowerCase() === 'y') {
 }
 
 console.log('Q: Do you think I\'m older than 30?, A: ' + ageGuess);
-
+}
+question1();
 
 //Question #2
+function question2() {
 var dogGuess = parseInt(prompt('How many dogs do you think I have?'));
 
 while (dogGuess.length < 1) {
@@ -42,8 +45,11 @@ if (dogGuess === 1) {
 }
 
 console.log('Q: How many dogs do you think I have?, A: ' + dogGuess);
+}
+question2();
 
 //Question #3
+function question3() {
 var favMovie = prompt('Do you think my favorite movie is Bill & Ted\'s Excellent Adventure?');
 
 while (favMovie.length < 1) {
@@ -59,9 +65,11 @@ if (favMovie.charAt(0).toLowerCase() === 'n') {
 }
 
 console.log('Q: Do you think my favorite movie is Bill & Ted\'s Excellent Adventure?, A: ' + favMovie);
+}
+question3();
 
 //Question #4
-
+function question4() {
 var humanStatus = prompt('Am I human or droid?');
 
 while (humanStatus.length < 1) {
@@ -77,8 +85,10 @@ if (humanStatus.toLowerCase() === 'human') {
 }
 
 console.log('Q: Am I human or droid?, A: ' + humanStatus);
-
+}
+question4();
 //Question #5
+function question5() {
 var labQuality = prompt('Do you think this is the best lab project you\'ve ever laid your unworthy eyes upon?');
 
 while (labQuality.length < 1) {
@@ -93,9 +103,10 @@ if (labQuality.charAt(0).toLowerCase() === 'y') {
   alert('Blasphemy!');
 }
 console.log('Q: Do you think this is the best lab project you\'ve ever laid your unworthy eyes upon?, A: ' + labQuality);
-
+}
+question5();
 //Question #6
-
+function question6() {
 var randNum = Math.floor(Math.random() * 10 + 1);
 var answer1 = false;
 var guessCount1 = 0;
@@ -123,8 +134,10 @@ while (answer1 === false) {
 }
 
 console.log('My number was ' + randNum + '. It took you ' + guessCount1 + ' guesses.');
-
+}
+question6();
 //Question #7
+function question7() {
 var answerBank = ['Mexico', 'Canada', 'Belize', 'Guatemala', 'El Salvador', 'Honduras', 'Nicaragua', 'Costa Rica', 'Panama', 'Colombia', 'Ecuador', 'Peru', 'Bolivia', 'Argentina', 'Chile', 'Uruguay'];
 
 var answer = false;
@@ -164,7 +177,8 @@ alert('I have been to these countries: ' + answerBank);
 
 console.log('It took you ' + guessCount + ' guesses.');
 
-
+}
+question7();
 
 
 
